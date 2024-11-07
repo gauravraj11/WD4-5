@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        /* Add content before a heading */
+        h1::before {
+            content: "🔥 ";
+            color: red;
+        }
+
+        /* Style the first letter of a paragraph */
+        p::first-letter {
+            font-size: 2em;
+            font-weight: bold;
+            color: green;
+        }
+
+        /* Add content after a button */
+        button::before {
+            content: " ➡️";
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="ab">Welcome</h1>
+    <p id="abcd">This is a paragraph with a styled first letter.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae eligendi dolorum nobis, distinctio neque quam
+        temporibus laudantium labore debitis eveniet consectetur voluptatem animi. Voluptates dolore nisi, soluta
+        voluptatum doloribus est.
+    </p>
+    <button>Click Me</button>
+</body>
+
+<!-- <style>
+       #ab::first-letter{
+        font-size: 20px;
+        color: rgb(13, 22, 199);
+
+       } 
+</style> -->
+
+</html>

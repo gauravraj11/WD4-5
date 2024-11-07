@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    div p {
+      color: blue; /* All paragraphs inside div */
+    }
+    #abc + p {
+      font-weight: bold; /* Direct children of div */
+    }
+
+    /* h1 + p {
+      color: green; /* The paragraph immediately after h1 
+    }
+
+    h1 ~ p {
+      font-style: italic; /* All paragraphs that are siblings of h1 
+    } */
+
+  </style>
+</head>
+<body>
+                        <h1>Main Heading</h1>
+                        <p>Sibling paragraph 1 (styled by adjacent and general sibling).</p>
+                        <p>Sibling paragraph 2 (styled by general sibling).</p>
+                        <div id="ab">
+                            <p id="abc">Direct child of div.</p>
+                            <p>gfghjfhjgfjhgkjhgjkhgkjhgdjk</p>
+                            <div>
+                            <p>Nested child of div (not direct).</p>
+                            </div>
+                            <p>fhgjgjhjkhkjhkhk</p>
+                            
+                        </div>
+</body>
+</html>
